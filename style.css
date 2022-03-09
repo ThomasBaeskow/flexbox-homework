@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(231, 229, 225);
+}
+main {
+    display: flex;
+    padding: 20px;
+    height: 90vh;
+    width: 100vw; 
+}
+
+button {
+    cursor: pointer;
+}
+
+.div1, .div2, .div3 {
+    height: 90vh;
+    width: 33vw;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.div2 {
+    background-image: url("./assets/bookset.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+    
+   
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div1 button:nth-of-type(1) {
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.div1 button:nth-of-type(2) {
+    background-color: black;
+    color: rgb(231, 229, 225);
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h1, h2, p {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    font-size: 16rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 4rem;
+}
+
+footer button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+}
+
+.div3 button {
+    background-color: black;
+    color: rgb(231, 229, 225);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    
+}
+
+footer button::before {
+    font-family: "FontAwesome";
+    content: "\f063";
+    position: relative;
+    right: 5px;
+    padding: 5px;
+    
+}
+
+.div3 button::after {
+    font-family: "FontAwesome";
+    content: "\f061";
+    position: relative;
+    left: 5px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.div1 button:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Arrow down = f063 */
+/* Arrow right = f061 */
